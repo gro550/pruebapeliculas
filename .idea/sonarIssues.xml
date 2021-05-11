@@ -153,6 +153,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/game/pruebataxislibres/ui/movie_detail/MovieDetailActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/game/pruebataxislibres/utils/Extension.kt">
           <value>
             <set />
@@ -223,6 +228,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_movie_detail.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_map.xml">
           <value>
             <set />
@@ -264,6 +274,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/raw/no_network.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <value>
             <set />
           </value>

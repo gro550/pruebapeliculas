@@ -1,5 +1,6 @@
 package com.game.pruebataxislibres.data.model
 
+import java.io.Serializable
 import com.google.gson.annotations.SerializedName
 
 data class Movie(
@@ -9,4 +10,4 @@ data class Movie(
     @SerializedName("overview") val overview: String,
     @SerializedName("poster_path") val posterPath: String,
     @SerializedName("title") val title: String
-)
+) : Serializable

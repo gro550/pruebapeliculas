@@ -3,10 +3,10 @@
     <item
         android:id="@+id/nvMovies"
         android:icon="@drawable/icon_movie"
-        android:title="Movies" />
+        android:title="PELÍCULAS" />
     <item
         android:id="@+id/nvMap"
         android:icon="@drawable/icon_map"
-        android:title="Map" />
+        android:title="MAPA" />
 
 </menu>

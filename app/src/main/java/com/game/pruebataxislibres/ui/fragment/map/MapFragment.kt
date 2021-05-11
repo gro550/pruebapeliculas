@@ -98,7 +98,7 @@ class MapFragment : BaseFragmentView<FragmentMapBinding>(R.layout.fragment_map),
     override fun onMapClick(p0: LatLng?) {
         val markerOptions = p0?.let { MarkerOptions().position(it) }
         if (listMarker.size == 0) {
-            map.addMarker(markerOptions)
+            map.addMarker(markerOptions?.title("MI DESTINO"))
             listMarker.add(markerOptions!!)
         }
     }
@@ -112,8 +112,9 @@ class MapFragment : BaseFragmentView<FragmentMapBinding>(R.layout.fragment_map),
                 null
             )
             if (myMarker == null) {
-                val markerOptions = MarkerOptions().position(favoritePlace)
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_taxi))
+                val markerOptions =
+                    MarkerOptions().title("MI UBICACIÓN").position(favoritePlace)
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_taxi))
                 map.addMarker(markerOptions)
                 myMarker = markerOptions
             }

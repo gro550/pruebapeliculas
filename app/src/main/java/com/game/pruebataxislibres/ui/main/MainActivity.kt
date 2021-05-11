@@ -12,7 +12,6 @@ class MainActivity : BaseView() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setNavigationView(binding.navigationView)
-
     }
 
 }
